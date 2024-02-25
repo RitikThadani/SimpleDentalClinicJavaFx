@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="616.0" prefWidth="896.0" style="-fx-background-color: #cbebe8;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.clinicatanyajavafx.HelloController">
+    <children>
+        <ImageView fitHeight="237.0" fitWidth="307.0" layoutX="330.0" layoutY="26.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../../../img/Logo.jpeg" />
+            </image>
+        </ImageView>
+        <Button fx:id="loginButton" defaultButton="true" layoutX="397.0" layoutY="393.0" mnemonicParsing="false" onAction="#loguear" prefHeight="25.0" prefWidth="103.0" text="Login" />
+        <Button fx:id="registerButton" defaultButton="true" layoutX="397.0" layoutY="431.0" mnemonicParsing="false" onAction="#abrirRegistrar" prefHeight="25.0" prefWidth="103.0" text="Register" />
+        <Button fx:id="dentistButton" defaultButton="true" layoutX="397.0" layoutY="569.0" mnemonicParsing="false" onAction="#abrirDent" prefHeight="25.0" prefWidth="103.0" text="Dentist" />
+        <TextField fx:id="userField" alignment="CENTER" layoutX="309.0" layoutY="308.0" prefHeight="25.0" prefWidth="279.0" promptText="User" />
+        <PasswordField fx:id="passField" alignment="CENTER" layoutX="309.0" layoutY="348.0" prefHeight="25.0" prefWidth="279.0" promptText="Password" />
+    </children>
+</Pane>

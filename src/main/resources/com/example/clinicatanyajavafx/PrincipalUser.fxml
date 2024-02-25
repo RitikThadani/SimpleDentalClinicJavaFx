@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="616.0" prefWidth="896.0" style="-fx-background-color: #cbebe8;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.clinicatanyajavafx.PrincipalControl">
+    <Button fx:id="backButton" defaultButton="true" layoutX="403.0" layoutY="547.0" mnemonicParsing="false" onAction="#goBack" prefHeight="25.0" prefWidth="93.0" text="Back" />
+</Pane>

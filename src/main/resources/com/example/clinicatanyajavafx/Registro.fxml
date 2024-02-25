@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="616.0" prefWidth="896.0" style="-fx-background-color: #cbebe8;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.clinicatanyajavafx.RegistroControl">
+    <children>
+        <Label layoutX="332.0" layoutY="85.0" text="REGISTER" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="51.0" />
+            </font>
+            <effect>
+                <Blend mode="BLUE" />
+            </effect>
+        </Label>
+        <TextField fx:id="dniField" alignment="CENTER" layoutX="374.0" layoutY="180.0" promptText="DNI" />
+        <TextField fx:id="nameField" alignment="CENTER" layoutX="374.0" layoutY="226.0" promptText="Name" />
+        <TextField fx:id="surnameField" alignment="CENTER" layoutX="374.0" layoutY="272.0" promptText="Surname" />
+        <TextField fx:id="emailField" alignment="CENTER" layoutX="374.0" layoutY="319.0" promptText="Email" />
+        <TextField fx:id="usernameField" alignment="CENTER" layoutX="374.0" layoutY="365.0" promptText="User Name" />
+        <TextField fx:id="passwordField" alignment="CENTER" layoutX="374.0" layoutY="411.0" promptText="Password" />
+        <Button defaultButton="true" layoutX="397.0" layoutY="477.0" mnemonicParsing="false" onAction="#insertar" prefHeight="25.0" prefWidth="102.0" text="Register" />
+        <Button fx:id="cancelButton" defaultButton="true" layoutX="397.0" layoutY="517.0" mnemonicParsing="false" onAction="#cancelar" prefHeight="25.0" prefWidth="102.0" text="Cancel" />
+    </children>
+</Pane>
